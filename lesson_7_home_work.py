@@ -100,3 +100,4 @@ m = 20
 lst = [rnd(0, 20) for _ in range(2 * m + 1)]
 print(f'Исходный список:\n{lst}')
 print(f'Медианой списка является: {median(lst, len(lst) / 2)}')
+
